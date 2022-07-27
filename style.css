@@ -1,0 +1,212 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{ 
+    margin: auto;
+    width: 800px;
+    height: 700px;
+    background-color: blue;
+    background-image: linear-gradient(to right ,blue,pink);
+    box-shadow: 5px 5px 5px 5px  gray;
+}
+
+.form{
+   position: relative;
+   top: 80px;
+   left: 197px;
+    width: 400px;
+    height: 600px;
+    background-color: #ffff;
+    border-radius: 10px 10px 10px 10px ;
+    
+}
+
+.h1{
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.input1{
+    position: absolute;
+    left: 50px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 300px;
+    top: 130px;
+    line-height: 50px;
+    outline-style: none;
+    
+    
+}
+.label{
+    position: absolute;
+    left: 50px;
+    font-weight: bold;
+    color: black;
+    top: 110px;
+    
+}
+
+input::placeholder{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.input2{
+    position: absolute;
+    left: 50px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 300px;
+    top: 210px;
+    line-height: 50px;
+    outline-style: none;
+}
+
+.label2{
+    position: absolute;
+    left: 50px;
+    font-weight: bold;
+    color: black;
+    top: 195px;
+}
+
+.button1{
+    position: absolute;
+    top: 270px;
+    right: 40px;
+    border: none;
+    background-color: transparent;
+
+    
+
+}
+
+
+.button2{
+    position: absolute;
+    top: 310px;
+    left: 100px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-style: none;
+    background-color: aqua;
+    background-image: linear-gradient(to right, blue 5%,pink 54%);
+    color: #ffff;
+    font-weight: bold;
+}
+
+.fa-user{
+    position: absolute;
+    top: 150px;
+    left: 55px;
+    color: lightgrey;
+
+}
+
+.fa-lock{
+    position: absolute;
+    top: 230px;
+    left: 55px;
+    color: lightgrey;
+}
+
+
+.h4{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    top: 370px;
+    left: 135px;
+    border: none;
+    background-color: transparent;
+}
+
+.fa-facebook{
+    position: absolute;
+    top: 410px;
+    left: 130px;
+    color: navy;
+    font-size: 35px;
+}
+
+
+.fa-twitter{
+    position: absolute;
+    top: 410px;
+    left: 180px;
+    color: lightblue;
+    font-size: 35px;
+}
+
+.fa-google{
+    position: absolute;
+    top: 410px;
+    left: 230px;
+    color: red;
+    font-size: 35px;  
+    
+}
+
+
+.button4{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    top: 500px;
+    left: 135px;
+    border: none;
+    background-color: transparent; 
+}
+
+
+.button5{
+    position: absolute;
+    top: 530px;
+    left: 155px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    
+}
+
+@media only screen and (max-width:600px){
+    .form{
+   position: relative;
+   top: 80px;
+   left: 10%;
+    width: 400px;
+    height: 600px;
+    background-color: #ffff;
+    border-radius: 10px 10px 10px 10px ;
+    
+}
+
+     .container{
+        width: 100%;
+        position: relative;
+        height: 844px;
+        
+    }
+    .h1{
+        color: blue;
+        font-family: sans-serif;
+    }
+   
+
+    
+ 
+    
+}
