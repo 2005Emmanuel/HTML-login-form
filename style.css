@@ -186,8 +186,8 @@ input::placeholder{
     .form{
    position: relative;
    top: 80px;
-   left: 10%;
-    width: 400px;
+   left: 0%;
+    width: 390px;
     height: 600px;
     background-color: #ffff;
     border-radius: 10px 10px 10px 10px ;
